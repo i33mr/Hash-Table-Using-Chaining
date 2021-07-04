@@ -1,7 +1,7 @@
 # Hash-Table-Using-Chaining
 This program uses a hash function to decide where to place each element (emails in this case) in the
-array. Whenever collision occurs between different elements, searches for the next available empty spot in the array and stores how far it is from
-the original key value. The program also shows the number of collusions occured, inserting and search durations.
+array. Whenever collision occurs between different elements, they are placed in a
+linked list, pointed to by the key. The program also shows the number of collusions occured, inserting and search durations.
 
 In this program, the following hash function is used:
 
@@ -21,12 +21,14 @@ The format is as follows.
 
 Set A: 
 
-![image](https://user-images.githubusercontent.com/68453742/124393469-58d61e80-dd03-11eb-9093-cc17319a71d2.png)
+![image](https://user-images.githubusercontent.com/68453742/124393085-6d191c00-dd01-11eb-8373-03d2edcbefff.png)
 
 Set B: 
 
-![image](https://user-images.githubusercontent.com/68453742/124393483-6a1f2b00-dd03-11eb-9e99-0b6a6d6d4d7d.png)
+![image](https://user-images.githubusercontent.com/68453742/124393104-8b7f1780-dd01-11eb-93ef-91e8d85ac500.png)
 
 Set C:
 
-![image](https://user-images.githubusercontent.com/68453742/124393490-786d4700-dd03-11eb-93fb-0664613c36c0.png)
+![image](https://user-images.githubusercontent.com/68453742/124393115-9cc82400-dd01-11eb-97de-284b14be6416.png)
+
+Note: the targeted are randomly chosen from the specified set. 
